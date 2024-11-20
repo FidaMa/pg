@@ -121,7 +121,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'jeu_de_role/static'),
+    os.path.join(BASE_DIR, 'jeu_de_role/static/jeu_de_role'),
 ]
 
 MEDIA_URL = '/media/'
